@@ -1,4 +1,4 @@
-package com.example.camara;
+package com.example.takephoto;
 
 import android.content.Context;
 
