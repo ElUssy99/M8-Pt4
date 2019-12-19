@@ -1,35 +1,28 @@
 package com.example.camara;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.provider.MediaStore;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 import java.io.File;
 import java.io.FileOutputStream;
 
-public class MainActivity extends AppCompatActivity {
-    static final int REQUEST_IMAGE_CAPTURE = 1;
-    ImageView nImageView;
-=======
-import android.os.Bundle;
+
 
 public class MainActivity extends AppCompatActivity {
->>>>>>> parent of 84277ea... Practica acabada
-=======
-import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
->>>>>>> parent of 84277ea... Practica acabada
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-<<<<<<< HEAD
         Button b = findViewById(R.id.button);
 
-        b.setOnClickListener(new View.OnClickListener() {
+        b.setOnClickListener(new View().OnClickListener() {
                                  @Override
                                  public void onClick(View v) {
                                      Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -64,9 +57,5 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-=======
->>>>>>> parent of 84277ea... Practica acabada
-=======
->>>>>>> parent of 84277ea... Practica acabada
     }
 }
