@@ -3,6 +3,7 @@ package com.example.camara;
 import androidx.appcompat.app.AppCompatActivity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.io.File;
 import java.io.FileOutputStream;
 
@@ -14,11 +15,17 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 >>>>>>> parent of 84277ea... Practica acabada
+=======
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+>>>>>>> parent of 84277ea... Practica acabada
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
 <<<<<<< HEAD
         Button b = findViewById(R.id.button);
 
@@ -57,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
+=======
+>>>>>>> parent of 84277ea... Practica acabada
 =======
 >>>>>>> parent of 84277ea... Practica acabada
     }
